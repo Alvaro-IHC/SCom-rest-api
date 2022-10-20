@@ -169,3 +169,19 @@ INSERT IGNORE INTO mis_vis(id_mv, fecha, mision, vision, id_admin) VALUES (1,'20
 expectativas de nuestros clientes de forma tal que nuestro nombre sea conocido como una
 experiencia memorable. Ser opción destacable y diferente.','Ser reconocidos entre los mejores
 restaurantes a nivel local y nacional por nuestra oferta gastronómica, ambiente y atención.',1);
+
+-- Ingredients
+INSERT IGNORE INTO ingrediente(nombre, precio, stock)
+VALUES ('zanahoria',2.5,100);
+INSERT IGNORE INTO ingrediente(nombre, precio, stock)
+VALUES ('haba',1.2,25);
+INSERT IGNORE INTO ingrediente(nombre, precio, stock)
+VALUES ('tomate',3,70);
+INSERT IGNORE INTO ingrediente(nombre, precio, stock)
+VALUES ('morron',2.4,12);
+INSERT IGNORE INTO ingrediente(nombre, precio, stock)
+VALUES ('lechuga',3,30);
+INSERT IGNORE INTO ingrediente(nombre, precio, stock)
+VALUES ('pollo',15,20);
+INSERT IGNORE INTO ingrediente(nombre, precio, stock)
+VALUES ('huevo',0.7,200);
