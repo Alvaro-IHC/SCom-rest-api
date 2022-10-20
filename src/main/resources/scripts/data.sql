@@ -117,21 +117,6 @@ INSERT IGNORE INTO pedido (id_pe, fecha, fecha_factura, entregado, preparado, co
 INSERT IGNORE INTO pedido (id_pe, fecha, fecha_factura, entregado, preparado, confirmado,
                                id_factura, id_chef, id_cliente, id_mesa) VALUES (5, '2015-07-14
 20:06:50', '2015-07-14 20:15:50', true, true, true, 5, 3, 12, 2);
-INSERT IGNORE INTO pedido (id_pe, fecha, fecha_factura, entregado, preparado, confirmado,
-                               id_factura, id_chef, id_cliente, id_mesa) VALUES (6, '2020-07-18
-20:06:50', null, false, false, false, null, null, 11, 1);
-INSERT IGNORE INTO pedido (id_pe, fecha, fecha_factura, entregado, preparado, confirmado,
-                               id_factura, id_chef, id_cliente, id_mesa) VALUES (7, '2020-11-30
-20:06:50', null, false, false, false, null, null, 13, 3);
-INSERT IGNORE INTO pedido (id_pe, fecha, fecha_factura, entregado, preparado, confirmado,
-                               id_factura, id_chef, id_cliente, id_mesa) VALUES (8, '2020-01-05
-20:06:50', null, false, false, false, null, null, 14, 4);
-INSERT IGNORE INTO pedido (id_pe, fecha, fecha_factura, entregado, preparado, confirmado,
-                               id_factura, id_chef, id_cliente, id_mesa) VALUES (9, '2022-07-31
-20:06:50', null, false, false, false, null, null, 10, 5);
-INSERT IGNORE INTO pedido (id_pe, fecha, fecha_factura, entregado, preparado, confirmado,
-                               id_factura, id_chef, id_cliente, id_mesa) VALUES (10, '2022-08-02
-20:06:50', null, false, false, false, null, null, 13, 4);
 
 -- Order >-< Product Relationship
 INSERT IGNORE INTO tiene (id_pedido, id_producto, cantidad) VALUES (1, 1, 2);
